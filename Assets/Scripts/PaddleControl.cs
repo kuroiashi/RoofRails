@@ -13,11 +13,7 @@ public class PaddleControl : MonoBehaviour
     {
 
         UpdatePaddleHolder();
-        if (transform.IsChildOf(GameObject.FindObjectOfType<FireController>().transform));
-        {
-            Debug.Log("asdf");
-        }
-
+       
     }
 
 
@@ -54,7 +50,7 @@ public class PaddleControl : MonoBehaviour
         UpdatePaddleHolder();
 
 
-       
+
 
 
     }

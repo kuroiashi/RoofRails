@@ -9,7 +9,7 @@ public class CyclinderMovement : MonoBehaviour
     private void Start()
     {
         paddleControl = EventManager.GetGameManagerClass.Invoke();
-       
+        Debug.Log("a");
     }
 
 
