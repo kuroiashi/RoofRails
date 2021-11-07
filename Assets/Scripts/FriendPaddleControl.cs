@@ -8,6 +8,7 @@ public class FriendPaddleControl : MonoBehaviour
     private void Start()
     {
        PaddleControl = EventManager.GetGameManagerClass();
+        debug.log("deneme");
     }
     
     
